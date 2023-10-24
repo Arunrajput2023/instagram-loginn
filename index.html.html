@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cookie&family=Great+Vibes&family=Italianno&family=Montserrat:wght@300;400;500&family=Pacifico&family=Satisfy&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background-color: white;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid white;
+            display: flex;
+            flex-direction: column;
+            padding: 2px;
+            gap: 10px;
+        }
+        .mainpage{
+            width: 300px;
+            height: 420px;
+            background-color: white;
+            gap: 25px;
+            border: 1px solid rgb(193, 188, 188);
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: ;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          
+        }
+        .secondpage{
+            width: 300px;
+          height: 30px;
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid rgb(193, 188, 188);
+          padding: 10px;
+           
+        }
+        .thirdpage{
+            width: 320px;
+          height: 80px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            /* border: 1px solid rgb(193, 188, 188); */
+               padding-top:  10px;
+               gap: 5px;
+        }
+        .heading p{
+         
+          font-family: 'Cookie', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Italianno', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Satisfy', cursive;
+font-weight: bolder;
+font: xx-large;
+font-size: xx-large;
+letter-spacing: 3px;
+font-weight: bolder;
+text-decoration: solid;
+
+           /* font-size: xx-large;
+            font-weight: 1000;
+            font-style: italic;
+            letter-spacing: 2px; */
+        }
+        #index{
+           width: 70%;
+           height: 200p;
+        }
+        .login{
+          width: 90%;
+          height: 8%;
+          background-color: rgba(74, 155, 237, 0.991);
+          border-radius: 10px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: azure;
+          cursor: pointer;
+
+        }
+        .box1{
+          background-color: rgba(240, 255, 255, 0.36);
+          border: 2px solid white;
+          display: flex;
+          flex-direction: row;
+          color: rgb(1, 1, 42);
+          row-gap: 400px ;
+          justify-content: space-around;
+
+          justify-content: space-between;
+        }
+        .rightbox img{
+          width: 17px;
+          cursor: pointer;
+        }
+        
+        .leftbox p{
+          white-space: normal;
+         font-weight: 540;
+         cursor: pointer;
+         color: rgb(1, 1, 52);
+        }
+        .box2 h5{
+          font-size: small;
+          font-weight: 500;
+          cursor: pointer;
+        }
+        .secondpage p1{
+          color: rgba(10, 125, 240, 0.991);;
+          font-weight: 600;
+          cursor: pointer;
+          
+        }
+        .boxlabel{
+          width: 90%;
+          height: 90%;
+          background-color: white;
+          border: 1px solid white;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          justify-content: space-between;
+        }
+        .right{
+          width: 45%;
+          height: 50%;
+          background-color: black;
+          border-radius: 5px;
+          justify-content: center;
+          display: flex;
+          flex-direction: row;
+           /* padding-left: 10px;
+           padding-top: 15px; */
+           padding-left: 5px;
+           padding-top: 2px;
+           justify-content: space-around;
+         cursor: pointer;
+
+        }
+        .left{
+          width: 45%;
+          height: 50%;
+          background-color: black;
+          cursor: pointer;
+          display: flex;
+          flex-direction: row;
+          padding-right:5px ;
+           padding-top: 2px;
+         justify-content: center;
+         align-items: center;
+         
+        }
+        .b1 img{
+          width: 80%;
+          height: 70%;
+        }
+        .b2 p3{
+          color: aliceblue;
+        }
+        .b2 h6{
+          color: aliceblue;
+        }
+        .b3 img{
+          width: 30px;
+      
+        }
+        .b4 p{
+          color: white;
+      
+        }
+        .b4 h6{
+          color: white;
+        }
+      .heading{
+        width: 100%;
+        height: 20%;
+        padding: 5px;
+        
+        border: px solid rgba(0, 0, 0, 0.02);
+        background-color: white;
+       display: flex;
+        justify-content: center;
+        align-items: center;
+       padding-bottom: 2px;
+      }
+      .details{
+        width: 90%;
+        height: 24%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      input[type="text"] {
+ 
+  background:rgb(239, 242, 242) ;
+  height: 40px;
+  width: 100%;
+  padding: 1px;
+  padding-left: 10px;
+  
+  border: 1px solid rgb(193, 188, 188);
+  border-radius: 3px
+}
+input[type="Password"] {
+ 
+ background:rgb(239, 242, 242) ;
+ height: 40px;
+ width: 100%;
+ padding: 1px;
+ padding-left: 10px;
+ 
+ border: 1px solid rgb(193, 188, 188);
+ border-radius: 3px
+}
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+     <div class="mainpage">
+      <div class="heading">
+    <p>Instagram</p>
+      </div>
+       <div class="details">
+      <input type="text" class="input1" id="input1" placeholder="Phone number,username or email id" aria-colco>
+     <br>
+     <input type="password" class="input1" id="input1" placeholder="Password" aria-colco>
+     
+      </div>
+       <div class="login">
+          Log in
+       </div>
+       <div>
+        <p>
+          ────────────OR────────────
+        </p>
+
+       </div>
+       <div class="box1">
+        <div class="rightbox">
+          <img src="https://cdn-icons-png.flaticon.com/512/174/174848.png" alt="">
+        </div><br>
+        <div class="leftbox">
+          <p>  Log in with Facebook</p>
+        </div>
+       
+       </div>
+      <div class="box2">
+        <div>
+          <h5>Forget Password?</h6>
+         </div>
+      </div>
+     </div>
+   
+
+
+     <div class="secondpage">
+       <p>Don't have an account? </p>
+       <p1> Sign up</p1>
+     </div>
+     <div class="thirdpage">
+      <p>Get the app.</p>
+      <div class="boxlabel">
+        <div class="right">
+            <div class="b1">
+            <img src="playstore.png" alt="">
+            </div>
+            <div class="b2">
+               <h6>GET IN ON</h6> 
+               <p3> Google Play</p3>
+            </div>
+        </div>
+        <div class="left">
+           <div class="b3">
+            <img src="microsoft.jpg" alt="">
+           </div>
+           <div class="b4">
+            <h6>GET IT FROM</h6>
+            <p>Microsoft</p>
+           </div>
+        </div>
+      </div>
+     </div>
+    </div>
+</body>
+</html>
